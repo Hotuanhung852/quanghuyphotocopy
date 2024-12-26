@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quang Huy PhotoCopy</title>
+    <link rel="stylesheet" href="assets/css/Home.css">
+    <link rel="stylesheet" href="assets/css/Product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Linking Google fonts for icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="arrow">
+        <a href="#" title="Back to Top">
+            <span class="fas fa-angle-up"></span>
+        </a>
+    </div>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="Home.html">QuangHuy</a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li class="active"><a href="Home.html">Trang Chủ</a></li>
+                <li><a href="AboutUs.html">Giới Thiệu</a></li>
+                <li>
+                    <a href="Product.html" class="desktop-item">Sản Phẩm</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">Sản Phẩm</label>
+                    <ul class="drop-menu">
+                        <li><a href="Product.html?filter=photocopy">PhotoCopy</a></li>
+                        <li><a href="Product.html?filter=hosobanve">Hồ Sơ Bản Vẽ</a></li>
+                        <li><a href="Product.html?filter=inkholon">In Khổ Lớn</a></li>
+                        <li><a href="Product.html?filter=innhanh">In Nhanh</a></li>
+                        <li><a href="Product.html?filter=inoffset">In Offset</a></li>
+                        <li><a href="Product.html?filter=inquangcao">In Quảng Cáo</a></li>
+                    </ul>
+                </li>
+                <!-- <li>
+          <a href="#" class="desktop-item">Dịch Vụ</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+          <ul class="drop-menu">
+            <li><a href="#">Dịch Vụ In Ấn</a></li>
+            <li><a href="#">Dịch Vụ PhotoCopy</a></li>
+          </ul>
+        </li> -->
+                <li>
+                    <a href="" class="desktop-item">Danh Mục</a>
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item">Danh Mục</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="assets/images/danhmuc.jpg" alt="">
+                            </div>
+
+                            <div class="row">
+                                <a href="Product.html?filter=photocopy" style="all: unset; cursor: pointer;">
+                                    <header>PhotoCopy</header>
+                                </a>
+                                <ul class="mega-links">
+                                    <li><a href="Product.html?filter=sachmaudankeonhiet">Sách Dán Keo Nhiệt</a></li>
+                                    <li><a href="Product.html?filter=photocopytailieu">PhotoCopy Tài Liệu</a></li>
+                                    <li><a href="Product.html?filter=biamavang">Bìa Mạ Vàng</a></li>
+                                </ul>
+                                <div style="height: 4em;"></div>
+                                <a href="Product.html?filter=inquangcao" style="all: unset; cursor: pointer;">
+                                    <header>In Quảng Cáo</header>
+                                </a>
+                                <ul class="mega-links">
+                                    <li><a href="Product.html?filter=inpp">In PP</a></li>
+                                    <li><a href="Product.html?filter=indecal">In Decal</a></li>
+                                    <li><a href="Product.html?filter=inhiflex">In Hiflex</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="row">
+                                <a href="Product.html?filter=innhanh" style="all: unset; cursor: pointer;">
+                                    <header>In Nhanh</header>
+                                </a>
+                                <ul class="mega-links">
+                                    <li><a href="Product.html?filter=danhthiep">Danh Thiếp</a></li>
+                                    <li><a href="Product.html?filter=toroitogap">Tờ Rơi - Tờ Gấp</a></li>
+                                    <li><a href="Product.html?filter=indecal">In Decal</a></li>
+                                    <li><a href="Product.html?filter=inkyyeu">In Kỷ Yếu</a></li>
+                                </ul>
+                                <div style="height: 0.95em;"></div>
+                                <a href="Product.html?filter=inkholon" style="all: unset; cursor: pointer;">
+                                    <header>In Khổ Lớn</header>
+                                </a>
+                            </div>
+
+                            <div class="row">
+                                <a href="Product.html?filter=inoffset" style="all: unset; cursor: pointer;">
+                                    <header>In Offset</header>
+                                </a>
+                                <ul class="mega-links">
+                                    <li><a href="Product.html?filter=innamecard">In Name Card</a></li>
+                                    <li><a href="Product.html?filter=catalogue">Catalogue</a></li>
+                                    <li><a href="Product.html?filter=tuixach">Túi Xách</a></li>
+                                    <li><a href="Product.html?filter=toroitogap">Tờ Rơi - Tờ Gấp</a></li>
+                                </ul>
+                                <div style="height: 0.95em;"></div>
+                                <a href="Product.html?filter=hosobanve" style="all: unset; cursor: pointer;">
+                                    <header>Hồ Sơ Bản Vẽ</header>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li><a href="Price.html">Bảng Giá</a></li>
+                <li><a href="Contact.html">Liên Hệ</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+
+    <div style="height: 50px;"></div>
+
+    <div class="filter-container">
+        <button class="filter-btn" data-filter="all">Tất Cả</button>
+
+        <div class="dropdown">
+            <button data-filter="photocopy" class="filter-btn dropdown-btn"
+                style="display: flex; align-items: center; width: 100%; position: relative;">
+                <div style="flex-grow: 1; text-align: center; margin-right: 15px;">PhotoCopy</div>
+                <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 10.5px;"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-filter="sachmaudankeonhiet">Sách dán keo nhiệt</a>
+                <a href="#" data-filter="photocopytailieu">PhotoCopy Tài Liệu</a>
+                <a href="#" data-filter="biamavang">Bìa Mạ Vàng</a>
+            </div>
+        </div>
+
+        <button class="filter-btn" data-filter="hosobanve">Hồ Sơ Bản Vẽ</button>
+        <button class="filter-btn" data-filter="inkholon">In Khổ Lớn</button>
+
+        <div class="dropdown">
+            <button data-filter="innhanh" class="filter-btn dropdown-btn"
+                style="display: flex; align-items: center; width: 100%; position: relative;">
+                <div style="flex-grow: 1; text-align: center; margin-left: 5px; margin-right: 20px;">In Nhanh</div>
+                <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 10.5px;"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-filter="danhthiep">Danh Thiếp</a>
+                <a href="#" data-filter="toroitogap">Tờ Rơi - Tờ Gấp</a>
+                <a href="#" data-filter="indecal">In Decal</a>
+                <a href="#" data-filter="inkyyeu">In Kỷ Yếu</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button data-filter="inoffset" class="filter-btn dropdown-btn"
+                style="display: flex; align-items: center; width: 100%; position: relative;">
+                <div style="flex-grow: 1; text-align: center; margin-left: 5px; margin-right: 20px;">In Offset</div>
+                <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 10.5px;"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-filter="innamecard">In Name Card</a>
+                <a href="#" data-filter="catalogue">Catalogue</a>
+                <a href="#" data-filter="tuixach">Túi Xách</a>
+                <a href="#" data-filter="toroitogap">Tờ Rơi - Tờ Gấp</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button data-filter="inquangcao" class="filter-btn dropdown-btn"
+                style="display: flex; align-items: center; width: 100%; position: relative;">
+                <div style="flex-grow: 1; text-align: center; margin-right: 15px;">In Quảng Cáo</div>
+                <i class="fas fa-chevron-down" style="position: absolute; right: 10px; top: 10.5px;"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" data-filter="inpp">In PP</a>
+                <a href="#" data-filter="indecal">In Decal </a>
+                <a href="#" data-filter="inhiflex">In Hiflex</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-card-list">
+        <!-- PhotoCopy -->
+        <a href="ProductDetailCard.html?product=sachmaudankeonhiet"
+            class="product-card-item photocopy sachmaudankeonhiet">
+            <img src="assets/images/sachmaudankeonhiet.jpg" alt="Card Image">
+            <span class="developer" style="margin-left: 20px;">PhotoCopy</span>
+            <h3 style="padding: 0 20px 20px 20px;">Sách Mẫu Dán Keo Nhiệt</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=phototailieu" class="product-card-item photocopy photocopytailieu">
+            <img src="assets/images/phototailieu.jpg" alt="Card Image">
+            <span class="developer" style="margin-left: 20px;">PhotoCopy</span>
+            <h3 style="padding: 0 20px 20px 20px;">Photo Tài Liệu</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=photosach" class="product-card-item photocopy photocopytailieu">
+            <img src="assets/images/photosach.jpg" alt="Card Image">
+            <span class="developer" style="margin-left: 20px;">PhotoCopy</span>
+            <h3 style="padding: 0 20px 20px 20px;">Photo Sách</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=biamaivang" class="product-card-item photocopy biamavang">
+            <img src="assets/images/bia-ma-vang.jpg" alt="Card Image">
+            <span class="developer" style="margin-left: 20px;">PhotoCopy</span>
+            <h3 style="padding: 0 20px 20px 20px;">Bìa Mạ Vàng Luận Văn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=thacsi" class="product-card-item photocopy biamavang">
+            <img src="assets/images/thacsi.jpg" alt="Card Image">
+            <span class="developer" style="margin-left: 20px;">PhotoCopy</span>
+            <h3 style="padding: 0 20px 20px 20px;">Bìa Mạ Vàng - Vỏ Bằng Đại Học, Thạc Sĩ</h3>
+        </a>
+
+        <!-- In Nhanh -->
+        <a href="ProductDetailCard.html?product=cardtieuchuan" class="product-card-item innhanh danhthiep">
+            <img src="assets/images/cardtieuchuan.jpg" alt="Card Image">
+            <span class="designer" style="margin-left: 20px;">In Nhanh</span>
+            <h3 style="padding: 0 20px 20px 20px;">Card Tiêu Chuẩn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=toroi2b" class="product-card-item innhanh inoffset toroitogap">
+            <img src="assets/images/toroi2b.jpg" alt="Card Image">
+            <span class="designer" style="margin-left: 20px;">In Nhanh</span>
+            <span class="editor">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">Tờ Rơi 2B</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=indecaldemi" class="product-card-item innhanh inquangcao indecal">
+            <img src="assets/images/indecaldemi.jpg" alt="Card Image">
+            <span class="designer" style="margin-left: 20px;">In Nhanh</span>
+            <span class="gamer">In Quảng Cáo</span>
+            <h3 style="padding: 0 20px 20px 20px;">In Decal - Bế Demi</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=inkyyeu" class="product-card-item innhanh inkyyeu">
+            <img src="assets/images/inkyyeu.jpg" alt="Card Image">
+            <span class="designer" style="margin-left: 20px;">In Nhanh</span>
+            <h3 style="padding: 0 20px 20px 20px;">In Kỷ Yếu</h3>
+        </a>
+
+        <!-- In Offset -->
+        <a href="ProductDetailCard.html?product=innamecard" class="product-card-item inoffset innamecard">
+            <img src="assets/images/innamecard.jpg" alt="Card Image">
+            <span class="editor" style="margin-left: 20px;">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">Name Card Chuẩn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=td1" class="product-card-item inoffset innamecard">
+            <img src="assets/images/td1.jpg" alt="Card Image">
+            <span class="editor" style="margin-left: 20px;">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">Card TĐ1</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=namecardbogoc" class="product-card-item inoffset innamecard">
+            <img src="assets/images/namecardbogoc.jpg" alt="Card Image">
+            <span class="editor" style="margin-left: 20px;">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">Name Card Bo Góc</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=incatalogue" class="product-card-item inoffset catalogue">
+            <img src="assets/images/in-catalogue.png" alt="Card Image">
+            <span class="editor" style="margin-left: 20px;">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">In Catalogue</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=catalogue3" class="product-card-item inoffset catalogue">
+            <img src="assets/images/catalogue3.jpg" alt="Card Image">
+            <span class="editor" style="margin-left: 20px;">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">Catalogue 3</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=tuixachmau" class="product-card-item inoffset tuixach">
+            <img src="assets/images/tuixachmau.jpg" alt="Card Image">
+            <span class="editor" style="margin-left: 20px;">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">Túi Xách Mẫu</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=tuixachtd" class="product-card-item inoffset tuixach">
+            <img src="assets/images/tuixachtd.jpg" alt="Card Image">
+            <span class="editor" style="margin-left: 20px;">In Offset</span>
+            <h3 style="padding: 0 20px 20px 20px;">Túi Xách TĐ</h3>
+        </a>
+
+        <!-- In Quảng Cáo -->
+        <a href="ProductDetailCard.html?product=gioithieu" class="product-card-item inquangcao inpp">
+            <img src="assets/images/gioithieu.jpg" alt="Card Image">
+            <span class="gamer" style="margin-left: 20px;">In Quảng Cáo</span>
+            <h3 style="padding: 0 20px 20px 20px;">Giới Thiệu In PP Và Quy Trình In</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=instandee2" class="product-card-item inquangcao inpp">
+            <img src="assets/images/in-standee2.jpg" alt="Card Image">
+            <span class="gamer" style="margin-left: 20px;">In Quảng Cáo</span>
+            <h3 style="padding: 0 20px 20px 20px;">In Standee</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=instandee" class="product-card-item inquangcao inpp">
+            <img src="assets/images/in-standee.jpg" alt="Card Image">
+            <span class="gamer" style="margin-left: 20px;">In Quảng Cáo</span>
+            <h3 style="padding: 0 20px 20px 20px;">PP Chân Cuộn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=bangron" class="product-card-item inquangcao inhiflex">
+            <img src="assets/images/bangron.jpg" alt="Card Image">
+            <span class="gamer" style="margin-left: 20px;">In Quảng Cáo</span>
+            <h3 style="padding: 0 20px 20px 20px;">In Hiflex - Băng Rôn Quảng Cáo</h3>
+        </a>
+
+        <!-- In Khổ Lớn -->
+        <a href="ProductDetailCard.html?product=maycanmangkholon" class="product-card-item inkholon">
+            <img src="assets/images/maycanmangkholon.jpg" alt="Card Image">
+            <span class="marketer" style="margin-left: 20px;">In Khổ Lớn</span>
+            <h3 style="padding: 0 20px 20px 20px;">Máy Cán Màng Khổ Lớn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=c7000" class="product-card-item inkholon">
+            <img src="assets/images/C7000.jpg" alt="Card Image">
+            <span class="marketer" style="margin-left: 20px;">In Khổ Lớn</span>
+            <h3 style="padding: 0 20px 20px 20px;">Máy In Màu Konica C7000</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=c6502" class="product-card-item inkholon">
+            <img src="assets/images/C6502.jpg" alt="Card Image">
+            <span class="marketer" style="margin-left: 20px;">In Khổ Lớn</span>
+            <h3 style="padding: 0 20px 20px 20px;">Máy In Màu Konica C6502</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=maukholon" class="product-card-item inkholon">
+            <img src="assets/images/maukholon.jpg" alt="Card Image">
+            <span class="marketer" style="margin-left: 20px;">In Khổ Lớn</span>
+            <h3 style="padding: 0 20px 20px 20px;">Máy In Màu Khổ Lớn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=trangden" class="product-card-item inkholon">
+            <img src="assets/images/trangden.jpg" alt="Card Image">
+            <span class="marketer" style="margin-left: 20px;">In Khổ Lớn</span>
+            <h3 style="padding: 0 20px 20px 20px;">Máy In Trắng Đen Khổ Lớn</h3>
+        </a>
+
+        <!-- Hồ Sơ Bản Vẽ -->
+        <a href="ProductDetailCard.html?product=banvekholon" class="product-card-item hosobanve">
+            <img src="assets/images/banvekholon.jpg" alt="Card Image">
+            <span class="artist" style="margin-left: 20px;">Hồ Sơ Bản Vẽ</span>
+            <h3 style="padding: 0 20px 20px 20px;">Bản Vẽ Khổ Lớn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=scanmaubanvekholon" class="product-card-item hosobanve">
+            <img src="assets/images/scanmaubanvekholon.jpg" alt="Card Image">
+            <span class="artist" style="margin-left: 20px;">Hồ Sơ Bản Vẽ</span>
+            <h3 style="padding: 0 20px 20px 20px;">Scan Màu Bản Vẽ Khổ Lớn</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=a0" class="product-card-item hosobanve">
+            <img src="assets/images/a0.jpg" alt="Card Image">
+            <span class="artist" style="margin-left: 20px;">Hồ Sơ Bản Vẽ</span>
+            <h3 style="padding: 0 20px 20px 20px;">Bản Vẽ A0</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=hosohoancong" class="product-card-item hosobanve">
+            <img src="assets/images/hosohoancong.jpg" alt="Card Image">
+            <span class="artist" style="margin-left: 20px;">Hồ Sơ Bản Vẽ</span>
+            <h3 style="padding: 0 20px 20px 20px;">Hồ Sơ Hoàn Công</h3>
+        </a>
+        <a href="ProductDetailCard.html?product=hsthau" class="product-card-item hosobanve">
+            <img src="assets/images/hsthau.jpg" alt="Card Image">
+            <span class="artist" style="margin-left: 20px;">Hồ Sơ Bản Vẽ</span>
+            <h3 style="padding: 0 20px 20px 20px;">Hồ Sơ Thầu</h3>
+        </a>
+    </div>
+
+    <div style="margin-bottom: 150px"></div>
+
+    <footer>
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+                    <div class="topic">CÔNG TY TNHH DU LỊCH</div>
+                    <p><span style="font-weight: 700;">Địa chỉ:</span> 45 Hoàng Hoa Thám, P.6, Quận Bình Thạnh</p>
+                </div>
+
+                <img src="assets/images/dathongbao.png" alt="Company Image"
+                    style="width: 33%; border-radius: 10px; margin-top: 20px;">
+                <div class="lower">
+                    <div class="topic">Liên Hệ</div>
+                    <div class="phone">
+                        <a href="tel:0903918499"><i class="fas fa-phone-volume"></i>0903918499</a>
+                    </div>
+                    <div class="email">
+                        <a href="mailto:huyqht@gmail.com"><i class="fas fa-envelope"></i>huyqht@gmail.com</a>
+                    </div>
+                    <div class="media-icons">
+                        <a href="https://www.facebook.com/huuhuy.ho"><i class="fab fa-facebook-f"
+                                style="margin-left: 15px;"></i></a>
+                        <!-- <a href="#"><i class="fab fa-instagram" style="margin-left: 13px;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="margin-left: 13px;"></i></a>
+                <a href="#"><i class="fab fa-youtube" style="margin-left: 11px;"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in" style="margin-left: 13px;"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="middle box">
+                <div class="topic">Dịch Vụ</div>
+                <div><a href="Product.html?filter=photocopy">PhotoCopy</a></div>
+                <div><a href="Product.html?filter=innhanh">In Nhanh</a></div>
+                <div><a href="Product.html?filter=inoffset">In Offset</a></div>
+                <div><a href="Product.html?filter=inquangcao">In Quảng Cáo</a></div>
+                <div><a href="Product.html?filter=inkholon">In Khổ Lớn</a></div>
+                <div><a href="Product.html?filter=hosobanve">Hồ Sơ Bản Vẽ</a></div>
+            </div>
+            <!-- <div class="right box">
+            <div class="topic">Subscribe us</div>
+            <form action="#">
+              <input type="text" placeholder="Enter email address">
+              <input type="submit" name="" value="Send">
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </form>
+          </div> -->
+            <div class="right box">
+                <div class="topic">Địa Điểm</div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0717985023384!2d106.68794407596242!3d10.805812989344847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c483afbfd5%3A0x69b973bdc752041e!2zNDUgSG_DoG5nIEhvYSBUaMOhbSwgUGjGsOG7nW5nIDYsIELDrG5oIFRo4bqhbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1733937367795!5m2!1svi!2s"
+                    width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Copyright © <span style="font-weight: 600;">QuangHuy</span> All rights reserved. Design by <a
+                    href="https://www.facebook.com/hung.hotuan.9/" style="text-decoration: none; color: grey;">Henry
+                    Hưng</a></p>
+        </div>
+    </footer>
+    <!-- Linking SwiperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Linking custom script -->
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const filterLinks = document.querySelectorAll('.dropdown-content a');
+
+            const handleFilterClick = (filter) => {
+                let url = '';
+
+                switch (filter) {
+                    case 'photocopy':
+                        url = 'Product.html?filter=photocopy';
+                        break;
+                    case 'hosobanve':
+                        url = 'Product.html?filter=hosobanve';
+                        break;
+                    case 'inkholon':
+                        url = 'Product.html?filter=inkholon';
+                        break;
+                    case 'innhanh':
+                        url = 'Product.html?filter=innhanh';
+                        break;
+                    case 'inoffset':
+                        url = 'Product.html?filter=inoffset';
+                        break;
+                    case 'inquangcao':
+                        url = 'Product.html?filter=inquangcao';
+                        break;
+                    // filter dropdown
+                    // photocopy
+                    case 'sachmaudankeonhiet':
+                        url = 'Product.html?filter=sachmaudankeonhiet';
+                        break;
+                    case 'photocopytailieu':
+                        url = 'Product.html?filter=photocopytailieu';
+                        break;
+                    case 'biamavang':
+                        url = 'Product.html?filter=biamavang';
+                        break;
+                    // innhanh
+                    case 'danhthiep':
+                        url = 'Product.html?filter=danhthiep';
+                        break;
+                    case 'toroitogap':
+                        url = 'Product.html?filter=toroitogap';
+                        break;
+                    case 'indecal':
+                        url = 'Product.html?filter=indecal';
+                        break;
+                    case 'inkyyeu':
+                        url = 'Product.html?filter=inkyyeu';
+                        break;
+                    // inoffset
+                    case 'innamecard':
+                        url = 'Product.html?filter=innamecard';
+                        break;
+                    case 'catalogue':
+                        url = 'Product.html?filter=catalogue';
+                        break;
+                    case 'tuixach':
+                        url = 'Product.html?filter=tuixach';
+                        break;
+                    // inquangcao
+                    case 'inpp':
+                        url = 'Product.html?filter=inpp';
+                        break;
+                    case 'inhiflex':
+                        url = 'Product.html?filter=inhiflex';
+                        break;
+                    // default
+                    default:
+                        url = 'Product.html?filter=all';
+                        break;
+                }
+
+                window.location.href = url;
+            };
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const filter = button.getAttribute('data-filter');
+                    handleFilterClick(filter);
+                });
+            });
+
+            filterLinks.forEach(link => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const filter = link.getAttribute('data-filter');
+                    handleFilterClick(filter);
+                });
+            });
+
+            // Apply filter based on URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const filter = urlParams.get('filter') || 'all';
+            const productItems = document.querySelectorAll('.product-card-item');
+
+            productItems.forEach(item => {
+                if (filter === 'all' || item.classList.contains(filter)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+    <a href="https://zalo.me/0903918499" target="_blank" class="zalo" title=""
+        style="position: fixed; right: 4px; top: calc(50% + 150px); border-radius: 10px; overflow: hidden; width: 70px; height: 70px; cursor: pointer; z-index: 1;">
+        <img src="assets/images/zalo.png" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+    </a>
+
+</body>
+
+</html>
