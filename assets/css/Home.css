@@ -310,6 +310,25 @@ nav input {
   height: 80vh;
   background: url("../images/wallpaper2.jpg");
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner-text {
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+
+.banner-text h1 {
+  margin-bottom: 10px;
+  font-size: 3.5em;
+}
+
+.banner-text p {
+  font-size: 1.3em;
 }
 
 /* Header title */
